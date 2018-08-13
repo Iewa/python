@@ -1,0 +1,8 @@
+# In this challenge, the user enters a string and a substring. 
+# You have to print the number of times that the substring occurs in the given string
+
+string = "ABCDCDC"
+sub_string = "CDC"
+print (sum([1 for i in range (0,len(string)) if (sub_string == string[i:i+len(sub_string)])]))
+
+#2
